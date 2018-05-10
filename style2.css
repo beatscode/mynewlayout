@@ -1,0 +1,414 @@
+
+/* navigation */
+#navPhone {
+   font-family:'Open Sans', sans-serif;
+}
+
+#logo{
+  width: 40px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+.dropdown-menu{  
+  /* dropdown for navigation */
+   max-height:400px;
+   overflow-y: scroll;
+}
+
+#navLinks {
+  z-index: 1;
+  background-color: #fff;
+}
+
+.navbar-collapse {
+  margin-top: 57px;
+}
+
+#tagline_section{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Main Content after nav */
+.mainContent {
+  margin-top:65px;
+}
+
+/* Image highlight section */
+#highlight_section {
+    background-color: blanchedalmond;
+    padding-left: 20%; 
+    padding-right: 20%;
+    width:100%;
+    text-align: center;
+}
+
+
+/* About section */
+#aboutContent {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1200px; 
+}
+
+#about_img {
+  width:100%;
+  margin-top: 45px;
+}
+
+/* Insurance and patient edu accordion list sections */
+
+#accordIns { 
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1200px; 
+  text-align: center;
+}
+.accordColor {
+  background-color: #E5E5E5;
+}
+
+
+#accordIns h3 {
+  text-align: left;
+  padding-bottom:5px;
+}
+
+#accordIns li {
+  list-style-position: inside;
+  text-align: center;
+}
+
+.fullInsurance {
+    font-family:'Open Sans', sans-serif;
+    font-size:12px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-top:25px;
+}
+
+.xpIns-item {
+  display:none;
+}
+#moreIns-trig {
+  display:block;
+}
+#lessIns-trig {
+  display:none;
+}
+#moreIns-trig:hover, #lessIns-trig:hover {
+  color:#22537e;
+  cursor: pointer;
+}
+
+.accordion-list {
+  padding-left:0;
+  float: left;
+}
+
+/* Office policies */
+#offPolContent {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1200px; 
+}
+
+.bookappt_img {
+  width:70%;
+  margin-top: 70px;
+}
+
+#bookapptImgs {
+  text-align:right;
+}
+
+
+/* credit cards for the office policies section */ 
+.cardImg {
+  margin-bottom:10px;
+}
+
+/* Patient Edu accordion list section */
+#accordEdu {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1200px; 
+  background-color: #E5E5E5;
+  text-align: center;
+  
+}
+#accordEdu h3 {
+  text-align: left;
+  padding-bottom:3%;
+}
+
+#accordEdu li {
+  list-style-position: inside;
+  text-align: center;
+}
+
+.fullContent {
+    font-family:'Open Sans', sans-serif;
+    font-size:12px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-top:25px;
+}
+
+.xpContent-item {
+  display:none;
+}
+#moreContent-trig {
+  display:block;
+}
+#lessContent-trig {
+  display:none;
+}
+#moreContent-trig:hover, #lessContent-trig:hover {
+  color:#22537e;
+  cursor: pointer;
+}
+
+/* -------------- location section -------------- */
+#locationContent {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1200px; 
+}
+
+#locationInfo_addr {
+  padding-top:3%;
+  font-size:15px;
+}
+#locationInfo_hrs {
+  padding-top:3%;
+  font-size:15px;
+}
+#locationInfo_map {
+  padding-top:3%;
+  width: 90%;
+  
+}
+
+
+th {
+  text-align: right;
+}
+
+td {
+  padding-left: 15px;
+}
+
+/* -------------- contact section -------------- */
+#simpleContact {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1200px; 
+}
+
+#phiContainer {
+  background-color: #E5E5E5;
+  padding-top: 5px;
+  border-radius: 10px;
+  text-align: left;
+  border: solid 2px #888888;
+  margin-bottom: 10px;
+}
+#phiWidth {
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#chbxPHI p {
+  font-size:15px;
+}
+
+.redaster {
+  color:#ff0000;
+}
+
+/* === Footer Menu | Social === */
+.footmenuSocial {
+  display:block;
+  width:280px;
+  margin:0 auto;
+}
+  .footmenuSocial .iconSocial {
+    border:2px solid #fff;
+    border-radius:50%;
+    float:left;
+    margin:0 5px;
+  }
+
+  .mainFooter{
+    padding-left: 12%;
+    padding-right:12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  footer {
+    float:left; 
+    width:100%;
+    background-color:#E5E5E5;
+  }
+
+
+/* media query for desktop viewport targets screen size with a minimum width of 1200px */
+/*_______________________--------------------------------__________________________*/
+
+@media only screen and (min-width: 1200px) {
+
+  /* nav links for desktop screens*/ 
+  #navLinks {
+    margin-top: 62px;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px #888888;
+  }
+
+  .navbar-collapse {
+  margin-top: 0px;
+  }
+
+  /* main content after nav for desktop screens*/
+  .mainContent {
+    margin-top: 120px;
+  }
+
+  /* about content desktop*/
+  #aboutContent {
+    padding-left: 30px;
+    padding-right: 30px;
+   
+  }
+
+  #accordIns {
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+
+  /*office policies section desktop*/
+  #offPolContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  
+  }
+  #accordEdu {
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  
+.bookappt_img {
+  width:60%;
+  margin-top: 30px;
+}
+
+#bookapptImgs {
+  text-align:right;
+}
+
+
+  /*locations section desktop*/
+  #locationContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Contact section desktop*/
+  #simpleContact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #phiWidth {
+  width: 75%;
+  }
+
+
+
+}
+
+/* media query for mobile viewport targets screen size with a minimum width of 480 */
+/*_______________________--------------------------------__________________________*/
+@media only screen and (max-width:480px) {
+
+  .heroImg {
+    padding-bottom: 10px;
+  }
+
+  #highlight_section {
+    display: none;
+  }
+  /* About section mobile*/
+  #aboutContent {
+    margin-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  /*  insurance accord section mobile */
+  #accordIns {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* Office policies mobile*/
+  #offPolContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #bookapptImgs {
+    text-align:center;
+  }
+
+  /*  patient edu accord section mobile */
+  #accordEdu {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /*  location section mobile*/
+  #locationContent {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+  /*  contact section mobile */
+  #simpleContact {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+  #chbxPHI p {
+    font-size:13px;
+  }
+  #phiWidth {
+  width: 100%;
+  }
+
+
+
+ 
+
+}
+
+
