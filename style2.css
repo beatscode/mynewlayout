@@ -47,7 +47,6 @@
     text-align: center;
 }
 
-
 /* About section */
 #aboutContent {
     padding-left: 60px;
@@ -63,7 +62,6 @@
 }
 
 /* Insurance and patient edu accordion list sections */
-
 #accordIns { 
   padding-left: 60px;
   padding-right: 60px;
@@ -74,12 +72,13 @@
   max-width: 1200px; 
   text-align: center;
 }
+
 .accordColor {
   background-color: #E5E5E5;
 }
 
 
-#accordIns h3 {
+#accordIns h2 {
   text-align: left;
   padding-bottom:5px;
 }
@@ -126,12 +125,12 @@
 }
 
 .bookappt_img {
-  width:70%;
-  margin-top: 70px;
+  width:60%;
+  margin-top: 50px;
 }
 
 #bookapptImgs {
-  text-align:right;
+  text-align:center;
 }
 
 
@@ -153,7 +152,7 @@
   text-align: center;
   
 }
-#accordEdu h3 {
+#accordEdu h2 {
   text-align: left;
   padding-bottom:3%;
 }
@@ -401,9 +400,9 @@ td {
   #chbxPHI p {
     font-size:13px;
   }
-  #phiWidth {
-  width: 100%;
-  }
+    #phiWidth {
+    width: 100%;
+    }
 
 
 
